@@ -1,0 +1,125 @@
+body {
+font-family: Arial; background: #f1f4fa; padding: 15px; color: #333;
+max-width: 2000px;
+display: flex;
+flex-direction: column;
+}
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+section {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 20px;
+    scroll-margin-top: 70px;
+}
+
+#home h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#home h3 {
+    font-size: 25px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 18px;
+    color: black;
+    max-width: 680px;
+    line-height: 1.7;
+}
+#about h1 {
+    font-size: 42px;
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+#about p {
+    font-size: 19px;
+    color: black;
+    max-width: 700px;
+    line-height: 1.8;
+}
+#contact h1 {
+    font-size: 42px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#contact a {
+    display: inline-block;
+    color: white;
+    background-color: #2563eb;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    background-color: #38bdf8;
+    color: #0f172a;
+    transform: translateY(-3px);
+}
+h1 {
+text-align: center; 
+color: #294b70;
+}
+h3 { color: #294b70; }
+input[type=text], input[type=date], select { width: 100%;
+box-sizing: border-box; padding: 9px;
+margin: 7px 0 12px; border: 1px solid #ccc; border-radius: 4px;
+}
+table {
+width: 100%;
+border-collapse: collapse; margin: 20px 0;
+}
+th, td {
+border: 1px solid #999; padding: 7px;
+text-align: center;
+}
+th { background: #e7edf7; } td input {
+width: 95%;
+box-sizing: border-box; padding: 7px;
+border: 1px solid #ddd;
+}
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
